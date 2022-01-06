@@ -12,6 +12,9 @@ public class Main {
         System.out.println(fullName);
         createFullName("Gabriel", "Sherman");
         createFullName("Marguerite", "Blair");
+        NameGenerator johnSmith = new NameGenerator();
+        johnSmith.generateFullName("John", "Smith");
+
         }
     }
 
